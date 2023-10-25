@@ -5,7 +5,8 @@ import React from "react";
 // import Wallet from "./components/Wallet";
 // import Counter from "./components/Counter";
 // import UsingUseRef from "./components/UsingUseRef";
-import MyComponent from "./components/MyComponent";
+// import MyComponent from "./components/MyComponent";
+import CustomHookExample from "./components/CustomHookExample";
 
 function App() {
   return (
@@ -14,8 +15,9 @@ function App() {
       <Wallet />
       <Counter />
       <ShoppingCart />
-  <UsingUseRef />*/}
-      <MyComponent />
+  <UsingUseRef />
+  <MyComponent />*/}
+      <CustomHookExample />
     </div>
   );
 }

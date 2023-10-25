@@ -1,21 +1,7 @@
-import React, { useState } from "react";
-
-import useConsoleLog from "../useConsoleLog";
+import React from "react";
 
 function MyComponent() {
-  const [count, setCount] = useState(0);
-  useConsoleLog(count);
-
-  function increment() {
-    setCount((prevCount) => prevCount + 1);
-  }
-
-  return (
-    <div>
-      <h1>Count: {count}</h1>
-      <button onClick={increment}>+1</button>
-    </div>
-  );
+  return <div></div>;
 }
 
 export default MyComponent;
