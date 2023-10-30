@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import HigherOrderComponent from "./components/HigherOrderComponent";
+import RenderProps from "./components/RenderProps";
 
 function App() {
   return (
     <div className="App">
-      <HigherOrderComponent />
+      <RenderProps />
     </div>
   );
 }
