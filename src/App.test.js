@@ -3,7 +3,7 @@ import FeedbackForm from "./components/FeedbackForm";
 
 test("Submissions is disabled if score is lower than 5 and there is no feedback", () => {
   const handleSubmit = jest.fn();
-  render(<FeedbackForm onSubmit={handleSubmit} />);
+  render(<FeedbackForm />);
 
   const rangeInput = screen.getByLabelText(/Score:/);
   fireEvent.change(rangeInput, { target: { value: 4 } });
