@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import OrderList from "./components/OrderList";
+import HigherOrderComponent from "./components/HigherOrderComponent";
 
 function App() {
   return (
     <div className="App">
-      <OrderList />
+      <HigherOrderComponent />
     </div>
   );
 }
