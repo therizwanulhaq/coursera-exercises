@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import RenderProps from "./components/RenderProps";
+import FeedbackForm from "./components/FeedbackForm";
 
 function App() {
   return (
     <div className="App">
-      <RenderProps />
+      <FeedbackForm />
     </div>
   );
 }
